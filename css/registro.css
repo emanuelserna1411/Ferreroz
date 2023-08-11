@@ -1,0 +1,70 @@
+.cuerpo
+{
+    background-color: #cecede;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #cecede 0.5px);
+    background-size: 10px 10px;
+    display: flex;
+}
+
+.contenedor
+{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    width: 400px;
+    height: auto;
+    background: #ffff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px -5px rgb(0, 0, 0,30%);
+}
+
+.contenedor .head
+{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.contenedor input
+{
+    width: 300px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #444cf7;
+}
+
+.img
+{
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+.img img
+{
+    position: relative;
+    height: 500px;
+}
+/*Estilos de principal.html*/
+.container
+{
+    background: #fff;
+    height: auto;
+    margin-top: 10px;
+}
+
+.t-venta
+{
+    text-align: center;
+    color: #52595C;
+}
+
+.dashboard
+{
+    max-width: 150px;
+    background: #444cf7;
+    height: 100vh;
+}
+
